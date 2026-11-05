@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en-IE">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Week 04 practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Hanken+Grotesk:wght@500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/app.css" />
+  </head>
+  <body class="bg-paper font-sans leading-relaxed text-ink">
+    <!-- A blank page wired to the same stylesheet as index.html, and to the
+         same watcher: any class you type here is built automatically.
+         Use it for this week's pattern gallery, challenges and anything you
+         want to break on purpose, so index.html keeps matching the guided
+         build. -->
+    <main>
+      <!-- THIS IS THE GOOD STUFF! -->
+      <div
+        class="grid h-80 grid-cols-[10rem_1fr_10rem] grid-rows-[auto_1fr_auto] gap-2 " 
+      >
+        <header class="col-span-3 bg-ink-deep p-3 text-on-dark">Header</header>
+        <nav class="bg-lime p-3 text-on-light">Nav</nav>
+        <main class="bg-green p-3 text-on-light">Main</main>
+        <aside class="bg-pink p-3 text-on-light">Aside</aside>
+        <footer class="col-span-3 bg-ink-deep p-3 text-on-dark">Footer</footer>
+      </div>
+      
+
+      <div class="grid grid-flow-dense auto-rows-[5rem] grid-cols-4 gap-2 mt-16">
+        <div class="col-span-2 row-span-2 bg-green p-2 text-on-light">1</div>
+        <div class="bg-lime p-2 text-on-light">2</div>
+        <div class="bg-pink p-2 text-on-light">3</div>
+        <div class="row-span-2 col-span-2 bg-lime p-2 text-on-light">4</div>
+        <div class="col-span-2 bg-pink p-2 text-on-light">5</div>
+        <div class="bg-green p-2 text-on-light">6</div>
+        <div class="col-span-2 bg-green p-2 text-on-light">7</div>
+        <div class="bg-pink p-2 text-on-light">8</div>
+        <div class="col-span-4 bg-lime p-2 text-on-light">9</div>
+      </div>
+
+      <div class="grid grid-cols-4 gap-2 mt-16 bg-ink-deep p-4">
+        <div class="col-span-2 row-span-2 bg-green p-4 text-on-light">
+          Weekly sessions
+        </div>
+        <div class="bg-lime p-4 text-on-light">Drop-ins</div>
+        <div class="bg-pink p-4 text-on-light">Requests</div>
+        <div class="col-span-2 bg-lime p-4 text-on-light">Latest activity</div>
+        <div class="col-span-4 border-(length:--rule) border-ink bg-paper p-4">
+          Notes
+        </div>
+      </div>
+
+
+      <div class="grid grid-cols-3 items-center gap-4 mt-16">
+        <div class="border-(length:--rule) border-ink bg-paper p-6">
+          <h3 class="font-bold">Drop-in</h3>
+          <p>Free</p>
+        </div>
+        <div class="bg-ink-deep p-10 text-on-dark">
+          <h3 class="font-bold">Plan</h3>
+          <p>Free, with an adviser</p>
+        </div>
+        <div class="border-(length:--rule) border-ink bg-paper p-6">
+          <h3 class="font-bold">Group</h3>
+          <p>Free</p>
+        </div>
+      </div>
+
+
+      <form class="grid grid-cols-2 gap-4 mt-16 bg-ink-deep p-4 text-on-dark">
+        <label class="flex flex-col gap-1"
+          >First name
+          <input class="border-(length:--rule) border-ink bg-paper p-2 text-on-light" />
+        </label>
+        <label class="flex flex-col gap-1"
+          >Last name
+          <input class="border-(length:--rule) border-ink bg-paper p-2 text-on-light" />
+        </label>
+        <label class="col-span-2 flex flex-col gap-1"
+          >Email
+          <input class="border-(length:--rule) border-ink bg-paper p-2 text-on-light" />
+        </label>
+        <button class="col-span-2 bg-green p-3 font-bold text-on-light">Send</button>
+      </form>
+      
+      <section aria-labelledby="timetable-heading">
+      <h2 class="col-span-4 border-(length:--rule) border-ink bg-pink p-4 font-bold text-on-light my-4" id="timetable-heading">
+        Timetable
+      </h2>
+
+        <div class="grid grid-cols-4 gap-4">
+
+          <div class="flex flex-col gap-2 border-(length:--rule) border-t-4 border-ink border-t-green bg-paper p-4 text-on-light col-span-1">
+            <h3 class="font-display font-bold">Monday</h3>
+            <ul class="flex flex-col gap-2">
+              <li>09:00 Study skills</li>
+              <li>10:00 Tutorial</li>
+            </ul>
+            <a href="#" class="mt-auto underline">Book a place</a>
+          </div>
+
+          
+
+          <div class="flex flex-col gap-2 border-(length:--rule) border-t-4 border-ink border-t-lime bg-paper p-4 text-on-light col-span-3">
+            <h3 class="font-display font-bold">Tuesday</h3>
+            <ul class="flex flex-col gap-2">
+              <li>11:00 Help session</li>
+              <li>12:00 Module discussion</li>
+            </ul>
+            <a href="#" class="mt-auto underline">Book a place</a>
+          </div>
+
+          
+
+          <div class="flex flex-col gap-2 border-(length:--rule) border-t-4 border-ink border-t-pink bg-paper p-4 text-on-light col-span-3">
+            <h3 class="font-display font-bold">Wednesday</h3>
+            <ul class="flex flex-col gap-2">
+              <li>13:00 Exam prep</li>
+              <li>14:00 Wellbeing</li>
+            </ul>
+            <a href="#" class="mt-auto underline">Book a place</a>
+          </div>
+
+          
+
+          <div class="flex flex-col gap-2 border-(length:--rule) border-t-4 border-ink border-t-green bg-paper p-4 text-on-light col-span-1">
+            <h3 class="font-display font-bold">Thursday</h3>
+            <ul class="flex flex-col gap-2">
+              <li>15:00 Workshop</li>
+              <li>16:00 Board games</li>
+            </ul>
+            <a href="#" class="mt-auto underline">Book a place</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>

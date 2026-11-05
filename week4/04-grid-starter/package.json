@@ -1,5 +1,5 @@
 {
-  "name": "02-core-utilities-starter",
+  "name": "04-grid-starter",
   "private": true,
   "devDependencies": {
     "@tailwindcss/cli": "4.3.3",
