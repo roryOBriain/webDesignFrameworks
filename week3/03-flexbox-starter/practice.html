@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en-IE">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Week 03 practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Hanken+Grotesk:wght@500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/app.css" />
+  </head>
+  <body class="bg-paper font-sans text-ink">
+    <!-- A blank page wired to the same stylesheet as index.html, and to the
+         same watcher: any class you type here is built automatically.
+         Use it for this week's pattern gallery, challenges and anything you
+         want to break on purpose, so index.html keeps matching the guided
+         build. -->
+    <main>
+      <div class="flex flex-col justify-center items-center gap-4 bg-paper p-4">
+        <button>One</button><button>Two</button><button>Three</button>
+      </div>
+
+      <nav class="flex items-center justify-between bg-ink-deep p-4 text-on-dark">
+        <span class="font-display font-bold">Brand</span>
+        <div class="flex gap-4">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+
+      <div class="flex h-40 items-center justify-center bg-paper">
+        <div class="bg-green p-4 text-on-light">Centred, both directions</div>
+      </div>
+
+    <div class="flex gap-4">
+      <div class="flex-1 bg-lime p-4">A Lorem ipsum dolor sit amet consectetur adipisicing elit. Est inventore facere quo, adipisci iusto, dolorum, voluptate doloribus omnis in enim ipsum. Corporis cupiditate itaque repudiandae quos nemo doloremque, voluptas rerum!</div>
+      <div class="flex-1 bg-green p-4">B small content</div>
+      <div class="flex-1 bg-pink p-4">C blah blah</div>
+    </div>
+      
+    <div class="flex gap-6">
+      <aside class="w-56 shrink-0 bg-ink-deep p-4 text-on-dark">Sidebar Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quo, architecto quos aperiam perspiciatis, ea fugit nihil ipsa quas soluta tenetur, illum animi. Accusamus minima, vitae doloremque esse soluta molestias?</aside>
+      <div class="min-w-0 flex-1 bg-paper p-4">Fluid content Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolor minima, natus facere harum temporibus tempora tempore dignissimos dolores veniam excepturi ipsum deleniti nobis quis autem, repellendus laboriosam, asperiores cum!
+      </div>
+    </div>
+
+    <div class="flex items-start gap-4">
+      <img
+        src="https://placehold.co/64"
+        alt=""
+        class="h-16 w-16 shrink-0 rounded-full"
+      />
+      <div>
+        <p class="font-bold">Someone's name</p>
+        <p>
+          A longer block of text that can wrap onto several lines without
+          pushing the image out of alignment.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex min-h-screen flex-col">
+      <header class="bg-ink-deep p-4 text-on-dark">Header</header>
+      <main class="flex-1 p-4 bg-paper">Main content, however tall it needs to be lorem*4</main>
+      <footer class="mt-auto bg-ink-deep p-4 text-on-dark">Footer, always at the bottom</footer> <!-- seems useful to know -->
+    </div>
+
+
+    <div class="flex flex-wrap gap-2 w-100 p-4">
+      <span class="rounded-full bg-lime px-3 py-1 text-on-light">Wellbeing</span>
+      <span class="rounded-full bg-lime px-3 py-1 text-on-light">Online</span>
+      <span class="rounded-full bg-lime px-3 py-1 text-on-light">City campus</span>
+      <span class="rounded-full bg-lime px-3 py-1 text-on-light">Drop-in</span>
+      <span class="rounded-full bg-lime px-3 py-1 text-on-light"
+        >Book a place
+      </span>
+    </div>
+
+    <div class="flex h-64 flex-col gap-2 border-(length:--rule) border-ink p-5 max-w-xs">
+      <h3 class="font-bold">Card title</h3>
+      <p>Some body copy, short or long, it doesn't matter.</p>
+      <button
+        class="mt-auto inline-block border-(length:--rule) border-ink bg-transparent px-4 py-2 font-bold text-ink"
+      >
+        Action
+      </button>
+    </div>
+
+
+
+    <section aria-labelledby="hosts-heading">
+      <h2 id="hosts-heading" class="font-display font-bold">Meet your drop-in hosts</h2>
+
+      <ul class="flex flex-wrap gap-4">
+        <li class="min-w-48 flex-1 border-(length:--rule) border-ink bg-pink p-4 text-on-light">
+          <h2 class="font-display font-bold">Host1 Lastname</h2>
+          <div id="profile1" class="flex items-center gap-4 h-16 rounded-full bg-green text-on-light mb-4">
+            <img
+              src="https://placehold.co/64"
+              alt=""
+              class="h-16 w-16 shrink-0 rounded-full"
+            />
+            <p>Study skills mentor</p>
+          </div>
+          
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum facere aliquam ex harum dolore necessitatibus eligendi eos a voluptate, quisquam, unde placeat, ab earum soluta corrupti quibusdam quaerat ipsum doloremque!</p>
+          <a href="#" class="underline">Say hello</a>
+        </li>
+        
+        <li class="min-w-48 flex-1 border-(length:--rule) border-ink bg-green p-4 text-on-light">
+          <h2 class="font-display font-bold">Host2 Lastname</h2>
+          <div id="profile2" class="flex items-center gap-4 h-16 rounded-full bg-lime text-on-light mb-4">
+            <img
+              src="https://placehold.co/64"
+              alt=""
+              class="h-16 w-16 shrink-0 rounded-full"
+            />
+            <p>Assistive technology officer</p>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum facere aliquam ex harum dolore necessitatibus eligendi eos a voluptate, quisquam, unde placeat, ab earum soluta corrupti quibusdam quaerat ipsum doloremque!</p>
+          <a href="#" class="underline">Say hello</a>
+        </li>
+
+        <li class="min-w-48 flex-1 border-(length:--rule) border-ink bg-lime p-4 text-on-light">
+          <h2 class="font-display font-bold">Host3 Lastname</h2>
+          <div id="profile3" class="flex items-center gap-4 h-16 rounded-full bg-ink text-on-dark mb-4">
+            <img
+              src="https://placehold.co/64"
+              alt=""
+              class="h-16 w-16 shrink-0 rounded-full"
+            />
+            <p>Wellbeing mentor</p>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum facere aliquam ex harum dolore necessitatibus eligendi eos a voluptate, quisquam, unde placeat, ab earum soluta corrupti quibusdam quaerat ipsum doloremque!</p>
+          <a href="#" class="underline">Say hello</a>
+        </li>
+
+        <li class="min-w-48 flex-1 border-(length:--rule) border-ink bg-ink-deep p-4 text-on-dark">
+          <h2 class="font-display font-bold">Host4 Lastname</h2 >
+          <div id="profile4" class="flex items-center gap-4 h-16 rounded-full bg-pink text-on-light mb-4">
+            <img
+              src="https://placehold.co/64"
+              alt=""
+              class="h-16 w-16 shrink-0 rounded-full"
+            />
+            <p>Financial officer</p>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum facere aliquam ex harum dolore necessitatibus eligendi eos a voluptate, quisquam, unde placeat, ab earum soluta corrupti quibusdam quaerat ipsum doloremque!</p>
+          <a href="#" class="underline">Say hello</a>
+        </li>
+        
+      </ul>
+    </section>
+  </main>
+  </body>
+</html>
